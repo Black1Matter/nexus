@@ -50,6 +50,6 @@ else
 fi
 (cd $REPO_PATH && git -c advice.detachedHead=false checkout $(git rev-list --tags --max-count=1))
 
-echo "4RGBcdYnPTYawYJ4jZcsAAHTytJ2" > $NEXUS_HOME/prover-id
+echo "QMD6SVbmcvctKuFuefjc8iMS6qj2" > $NEXUS_HOME/prover-id
 
 #(cd $REPO_PATH/clients/cli && cargo run --release --bin prover -- beta.orchestrator.nexus.xyz)
